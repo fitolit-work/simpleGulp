@@ -14,5 +14,5 @@ export function watcher(){
     app.gulp.watch(app.path.watch.html, html);
     app.gulp.watch(app.path.watch.scss, scss);
     app.gulp.watch(app.path.watch.js, js);
-    app.gulp.watch(app.path.watch.js, images);
+    app.gulp.watch(app.path.watch.images, images);
 }
